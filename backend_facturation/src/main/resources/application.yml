@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: maFacture
+server:
+  port: 9090
+jwt:
+  secret:
+    key: XSPUMZrQyxQWsfl4FmvmgTwioGgkfd2wwhBfrtMcUqocZvbgcym7G2MLfvQK
+  cookie:
+    httpOnly: true
+    secure: false
+    domain: localhost
